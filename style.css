@@ -160,20 +160,27 @@ body {
 /* Footer */
 footer {
   text-align: center;
-  padding: 40px 20px;
-  border-top: 1px solid #1EC4F1;
+  padding: 44px 20px;
+  border-top: 1px solid #0ff;
+  background: linear-gradient(to bottom, #0A1A2F, #000); /* gradiente azul escuro para preto */
+
 }
 
 footer .dio-logo {
-  width: 120px;
-  margin-bottom: 10px;
+  width: 310px;
+  margin-bottom: 15px;
+}
+
+footer p {
+  color: #ccc;
 }
 
 footer p a {
-  color: #1EC4F1;
+  color: #0ff;
   text-decoration: none;
 }
 
 footer p a:hover {
   text-decoration: underline;
 }
+
