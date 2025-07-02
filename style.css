@@ -1,0 +1,179 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Banner */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.banner {
+  background: url('assets/images/banner.png') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.banner-content h1 {
+  color: #1EC4F1;
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 20px 0 10px;
+}
+
+.banner-content p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: white;
+  line-height: 1.5;
+}
+
+.banner-content button {
+  background: transparent;
+  color: #1EC4F1;
+  border: 1px solid #1EC4F1;
+  padding: 12px 32px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner-content button:hover {
+  background-color: #1EC4F1;
+  color: black;
+}
+
+/* Course Content */
+#course-content {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #000;
+}
+
+#course-content h2 {
+  color: #1EC4F1;
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#course-content p {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.module {
+  border: 1px solid #1EC4F1;
+  padding: 16px 24px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #111, #222);
+  color: white;
+  font-size: 16px;
+  text-align: center; /* <-- centraliza o texto */
+  transition: background 0.3s;
+}
+
+
+.module span {
+  color: #1EC4F1;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Transform World*/
+#transform-world {
+  height: 560px;
+  background-size: cover;
+  background-image: url("../trilha-css-desafio-01/assets/images/woman-code.png");
+  background-attachment: fixed;
+  border-top: 1px solid #33A8DB80;
+  border-bottom: 1px solid #33A8DB80;
+  padding: 200px;
+}
+
+#transform-world p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 1.2;
+  color: white;
+  text-transform: lowercase;
+  text-shadow: 2px 2px 0 #00c0ff; /* sombra azul clara */
+  margin-left: 40px;
+}
+
+/* Professional Challenges */
+#professional-challenges {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#professional-challenges h2 {
+  color: #33A8DB;
+;
+  margin-bottom: 20px;
+  text-transform:Raleway;
+  font-size:32px;
+}
+
+#professional-challenges img {
+  width: 800px;
+  margin: 20px 0;
+}
+
+#professional-challenges p {
+  max-width: 800px;
+  margin: auto;
+  color: #ccc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #1EC4F1;
+}
+
+footer .dio-logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+footer p a {
+  color: #1EC4F1;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
